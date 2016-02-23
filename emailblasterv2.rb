@@ -29,7 +29,7 @@ class EmailBlaster
 			template = "Dear #{name_first} #{name_last}: 
 		
 				
-#{"•"} #{reason1} #{"\n\n• #{reason2}" if reason2} #{"\n\n• #{reason3}" if reason3} #{"\n\n• #{reason4}" if reason4}
+#{"•"} #{field1} #{"\n\n• #{field2}" if field2} #{"\n\n• #{field3}" if field3} #{"\n\n• #{field4}" if field4}
 
 	
 
