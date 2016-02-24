@@ -43,7 +43,7 @@ class EmailBlaster
 	end
   
   def print(stored_templates)
-    CSV.open("mail", "a+") do |csv|
+    CSV.open("editedfile.csv", "a+") do |csv|
       csv << [stored_templates[0], stored_templates[1]]
     end
   end 
