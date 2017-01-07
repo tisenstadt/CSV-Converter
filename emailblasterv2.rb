@@ -1,4 +1,4 @@
-#Script to automatically generate email form responses from excel file saved as CSV
+#Script to automatically generate email form responses from CSV file
 #by Todd Isenstadt
 
 # encoding: UTF-8
